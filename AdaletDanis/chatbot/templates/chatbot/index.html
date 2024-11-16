@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block css_files %} 
+<link rel="stylesheet" href="{% static 'chatbot/css/style.css' %}"> 
+{% endblock %}
+
+{% block title %}Homepage{% endblock %}
+
+{% block content %}
+{% include 'chatbot/partials/_askquestion.html'%}
+{% endblock %}
+
+{% block js_files %}
+<script src="{% static 'chatbot/js/script.js' %}"></script>
+{% endblock %}

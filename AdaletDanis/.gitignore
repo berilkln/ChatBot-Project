@@ -1,0 +1,93 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pyd
+*.db
+*.sqlite3
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+*.db
+
+# staticfiles/ 
+media/
+*.log
+
+# Virtualenv
+venv/
+.env/
+venv.bak/
+*.egg-info/
+*.egg
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Python distribution / packaging
+build/
+dist/
+*.tar.gz
+*.egg
+*.whl
+pip-wheel-metadata/
+
+# Pytest
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# TensorFlow, Hugging Face, and Machine Learning
+model/
+__pycache__/
+checkpoints/
+saved_model/
+*.h5
+*.ckpt
+*.pb
+*.tflite
+*.zip
+*.tar.gz
+
+# Hugging Face cache and model data
+.cache/
+transformers_cache/
+huggingface_cache/
+
+# Docker
+docker-compose.override.yml
+Dockerfile
+
+# Sentry
+.sentrycli/
+
+# Test & Coverage Reports
+coverage.xml
+nosetests.xml
+*.cover
+*.log
+
+# Python Wheels
+*.whl
+
+# Environment
+.env
+*.env
+
+# Python virtual environment (common directories)
+venv/
+env/
+.venv/
+.venv.bak/
