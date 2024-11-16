@@ -91,3 +91,9 @@ venv/
 env/
 .venv/
 .venv.bak/
+
+#data/*.json -->option
+
+#Datasets
+data/
+datasets/
