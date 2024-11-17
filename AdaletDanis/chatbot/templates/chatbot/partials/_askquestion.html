@@ -1,18 +1,15 @@
 <div class="container">
-    <h1>Türk Hukuk Soru Cevap</h1>
-    <form method="POST">
+  <h1>Adalet Danış</h1>
+  <form method="POST">
       {% csrf_token %}
-      <div class="mb-3">
-        <label class="form-label">Sorunuzu Yazın:</label>
-        <input type="text" class="form-control" name="question" placeholder="Örneğin: Medeni Hukuk nedir?">
-      </div>
-      <div class="mb-3">
-        <button type="submit" class="btn btn-primary">Soru Sor</button>
-      </div>
-    </form>
-
-    {% if answer %}
-      <h2>Cevap:</h2>
+      <label for="question">Sorunuzu yazınız:</label>
+      <input type="text" id="question" name="question" placeholder="Sorunuzu buraya yazın" required>
+      <button type="submit">Cevap Al</button>
+  </form>
+  {% if answer %}
+  <div class="answer">
+      <strong>Cevap:</strong>
       <p>{{ answer }}</p>
-    {% endif %}
   </div>
+  {% endif %}
+</div>
