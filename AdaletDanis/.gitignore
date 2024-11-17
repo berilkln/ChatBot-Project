@@ -97,3 +97,6 @@ env/
 #Datasets
 data/
 datasets/
+
+#Model
+models/
